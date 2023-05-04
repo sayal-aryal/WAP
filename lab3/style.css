@@ -62,6 +62,11 @@ body {
     color: #000;
     font-weight: 600;
 }
+
+.navbar-right{
+float: right;
+margin-left: 1300px;
+}
 .nav-list{
     font-size: 13px;
     margin: 0 25px 0 0;
@@ -196,13 +201,6 @@ body {
     padding: 15px 30px;
     background-color: #e6e6e6;
 }
-/* .help-desk { */
-    /* height: 50px; */
-    /* width: 100%; */
-    /* padding: 7px 30px 10px; */
-    /* text-align: right; */
-    /* background: #fff; */
-/* } */
 
 footer img {
     width: 100px;
