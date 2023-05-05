@@ -63,9 +63,9 @@ body {
     font-weight: 600;
 }
 
-.navbar-right{
+.right{
 float: right;
-margin-left: 1300px;
+margin-left: 500px;
 }
 .nav-list{
     font-size: 13px;
