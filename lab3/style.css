@@ -1,218 +1,353 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #f3f3f3;
-}
-#wrapper {
-  min-height: 100%;
-  position: relative;
-}
-#header {
-  background: #ededed;
-  padding: 10px;
-}
-#content {
-  padding-bottom: 100px;
-}
-#footer {
-  background: #ffab62;
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.form-main{
-    border-right: 1px solid #ccc;
-    padding-right: 80px;
-    text-align: left;
-}
-.nav-element{
-    color:#000000;
-    font-size: 13px;
-    font-family: sans-serif;
-    margin: 0px 25px 0px 0px;
-}
-.header-element{
-    padding:15px;
-    display:inline;
-}
-.header-img{
-    width: 35px;
-   
-}
-.azure-btn{
+.page-nav-header {
+
+
+
+
     display: block;
-    height: 50px;
-    padding: 10px 0;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 85px;
-    padding: 0 0 20px;
-    border-bottom: 1px dotted rgba(151,151,151,0.3);
-}
-.compro-help-desk-span{
-    font-family: sans-serif;
-    position: relative;
-    padding-left: 15px;
-    padding-top: 1.5px;
-    font-size: 16px;
-    color: #000;
-    font-weight: 600;
+
+    color: gray;
+
+    font-size: 10px;
+
+    color: black;
+
+    padding-top: 10
 }
 
-.right{
-float: right;
-margin-left: 500px;
-}
-.nav-list{
-    font-size: 13px;
-    margin: 0 25px 0 0;
-    color: #000000;
-    font-family: sans-serif;
-}
-.nav-list:hover{
-    text-decoration: none;
-}
-.header-topic{
-    position: relative;
-    padding-left: 15px;
-    padding-top: 1.5px;
-    font-size: 16px;
-    color: #000;
-    font-weight: 600;
+
+
+
+.header-left {
+
+
+
+
+    display: inline-block;
+
+    /* border: solid 1px red; */
+
+
+
+
+    vertical-align: top;
+
+    width: 49%;
+
+    margin: auto;
+
 }
 
-.welcome-div{
-    background-color: #304679;
-    color: #fff;
-    font-size: 42px;
-    height: 180px;
-    text-align: center;
-    padding: 57px;
-}
-.login-container-wrap{
-    padding:40px 0; 
-    display: flex;
-}
-.login-container{
-    height: 705px;
-    width: 472.5px;
-    padding:20px 112.797px;
-}
-.login-info-cont{
-    padding-left: 80px;
-    font-weight: bold;
-    color: #666;
-    font-size: 15px;
-}
-.submit-ticket-container{
-    height: 705px;
-    width: 472.5px;
-    padding:20px 112.797px;
+
+
+
+.header-left img {
+
+    vertical-align: middle;
+
 }
 
-.login-container-heading{
-    color: #333;
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-.login-container-help-text{
-    color: #999;
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-.azure-photo{
-    width: 100px;
-}
-.or-login-using-text{
-    padding: 10px;
-    font-size: 12px;
-    color: #999;
-    text-align: center;
+
+
+
+.header-left span {
+
+    /* font-size: 12px; */
+
+    display: inline-block;
+
+    /* border: solid 1px red; */
+
+    vertical-align: top;
+
+    width: 49%;
+
+    text-align: left;
+
+    margin: auto;
+
     position: absolute;
-    bottom: -18px;
-    left: 50%;
-    background: #f3f3f3;
-    transform: translateX(-50%);
-}
-
-.main-section{
-    padding: 40px 0;
-    text-align: center;
-    background-color: #f3f3f3;
-}
-.main-container{
-    display: flex;
-    width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 100%;
 
 }
-.azure-btn-text{
-    font-size: 12px;
-    color: #999;
-    position: relative;
-    bottom: -104px;
+
+
+
+
+.page-nav-header {
+
+    display: inline-block;
+
+    /* border: solid 1px red; */
+
+    vertical-align: top;
+
+    width: 49%;
+
+    text-align: right;
+
+    margin: auto;
+
+    margin-top: 9px;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
 }
-.img-btn {
-    display: block;
-    height: 50px;
-    padding: 10px 0;
-    margin-bottom: 10px;
-    text-align: center;
-    border-radius: 5px;
-    border: solid 1px #dedede;
-    background-color: #fff;
-    cursor: pointer;
-}
-.form-field {
-    margin-bottom: 5px;
+
+
+
+
+.logo {
+
+    display: inline-block;
+
+    vertical-align: top;
+
     text-align: left;
+
+
+
+
 }
-.form-field-label {
+
+
+
+
+.header {
+
+    background-color: #069;
+
+    color: white;
+
+    padding-top: 40px;
+
+    padding-bottom: 40px;
+
+    font-size: 27px;
+
+}
+
+
+
+
+.page-header-text {
+
+    text-align: center;
+
+
+}
+
+
+.main-content {
+
+    text-align: center;
+
+}
+
+.content-left {
+
+    display: inline-block;
+
+    width: 45%;
+
+    vertical-align: top;
+
+    text-align: left;
+
+    font-family: 'Times New Roman', Times, serif;
+
     color: #666;
-    font-size: 14px;
+
+    font-weight: normal;
+
+    text-decoration: none;
+
+
 }
-.form-field-val {
-    margin: 5px 0;
-    padding: 10px 12px;
-    width: 100%;
-    outline: 0;
+
+.input-field {
+
+    padding: 10px;
+
+}
+.content-right {
+
     display: inline-block;
-    border-radius: 5px;
-    border: solid 1px #e8e8e8;
-    background-color: #fff;
-    font-size: 14px;
-}
-.login-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    width: 45%;
+
+    vertical-align: top;
+
+    text-align: justify;
+
 }
 
+.azure-btn {
 
-/*Footer CSS */ 
-.footer-content {
-    text-align: right;
-    padding: 15px 30px;
-    background-color: #e6e6e6;
-}
+    display: block;
 
-footer img {
-    width: 100px;
-    margin: 10px;
-}
-footer li {
-    display: inline;
-}
-footer li a {
-    display: inline-block;
-}
-.validator{
     background-color: white;
+
+    text-align: center;
+
+    align-content: center;
+
+    height: 50px;
+
+    border: solid 1px #dedede;
+
+    padding: -5px 0;
+
+    margin-bottom: 10px;
+
+    margin-top: 5px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    width: 280px;
+
+}
+.btn-submit-login {
+
+    background-color: black;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 5px;
+
+    padding: 5px 10px;
+
+    width: 280px;
+
+    border: 1px solid grey;
+
+}
+
+.form-group {
+
+    display: block;
+
+    width: 280px;
+
+    margin-top: 5px;
+
+    padding-top: 10px;
+
+}
+.form-group label {
+
+    margin-bottom: 5px;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+}
+
+.form-input {
+
+    width: 280px;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    border: 1px solid grey;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form-group label {
+
+    display: block;
+
+}
+.flex-group {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.form-footer {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 5px;
+
+    font-size: 14px;
+
+    color: #666;
+   
+
+}
+.form-footer>p {
+
+    color: #069
+}
+
+.form-footer a {
+
+    text-decoration: none;
+
+    color: #08c;
+
+    font-weight: 400;
+
+}
+
+.footer-container {
+
+    background-color: #e6e6e6;
+
+    color: #666;
+
     text-align: right;
+
+    padding: 15px 30px;
+
+}
+.footer-container-info {
+
+    background-color: #fff;
+
+    color: #666;
+
+    text-align: right;
+
+    padding: 7px 30px 10px;
+
+}
+
+.footer-copyright-text {
+
+    font-size: 13px;
+
+}
+.footer-container-info a {
+
+    text-decoration: none;
+
+    color: #666;
+
+    font-weight: 700;
+
+}
+.footer-container img {
+
+    width: 100px;
+
 }
