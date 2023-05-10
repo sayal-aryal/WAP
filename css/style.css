@@ -1,14 +1,19 @@
 h1 {
-color: rgb(12, 247, 247);
+color: maroon;
 }
 
 h3 {
-    color: aqua;
+    color: maroon;
     }
 
     body {
-        background-color:darkolivegreen;
+        background-color:grey;
+        font-family: Arial, Helvetica, sans-serif,'Times New Roman', Times, serif;
+        font-size: large;
+        font-weight: 480;
     }
 .yellow{
-    color: yellow;
+    color: burlywood;
+    font-style: bold;
+    font-weight: 800;
 }
