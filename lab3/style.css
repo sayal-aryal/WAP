@@ -1,353 +1,330 @@
 .page-nav-header {
 
-
-
-
     display: block;
-
     color: gray;
-
     font-size: 10px;
-
     color: black;
-
     padding-top: 10
 }
 
-
-
-
 .header-left {
 
-
-
-
     display: inline-block;
-
     /* border: solid 1px red; */
 
-
-
-
     vertical-align: top;
-
     width: 49%;
-
     margin: auto;
-
 }
-
-
-
 
 .header-left img {
-
     vertical-align: middle;
-
 }
-
-
-
 
 .header-left span {
-
     /* font-size: 12px; */
-
     display: inline-block;
-
     /* border: solid 1px red; */
-
     vertical-align: top;
-
     width: 49%;
-
     text-align: left;
-
     margin: auto;
-
     position: absolute;
-
 }
-
-
-
 
 .page-nav-header {
-
     display: inline-block;
-
     /* border: solid 1px red; */
-
     vertical-align: top;
-
     width: 49%;
-
     text-align: right;
-
     margin: auto;
-
     margin-top: 9px;
-
     font-size: 14px;
-
     font-weight: 400;
-
 }
-
-
-
 
 .logo {
-
     display: inline-block;
-
     vertical-align: top;
-
     text-align: left;
 
-
-
-
 }
-
-
-
 
 .header {
-
     background-color: #069;
-
     color: white;
-
-    padding-top: 40px;
-
+    padding-top: 70px;
     padding-bottom: 40px;
-
     font-size: 27px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.login-text {
+    color: #333;
+    font-size: 40px;
+}
+
+p{
+display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 
 }
 
-
-
-
+label{
+    cursor: default;
+}
 .page-header-text {
-
     text-align: center;
-
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
 
 }
-
 
 .main-content {
-
     text-align: center;
 
 }
 
 .content-left {
-
     display: inline-block;
-
     width: 45%;
-
     vertical-align: top;
-
     text-align: left;
-
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: 'Open Sans',sans-serif;
     color: #666;
-
     font-weight: normal;
-
     text-decoration: none;
-
 
 }
 
 .input-field {
-
     padding: 10px;
 
 }
+
 .content-right {
-
     display: inline-block;
-
     width: 45%;
-
     vertical-align: top;
+    text-align: center;
+}
 
+.content-right>p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: inherit;
     text-align: justify;
+    color: #666;
+
+}
+.content-right-a {
+    
+    color: #069;
 
 }
 
 .azure-btn {
-
     display: block;
-
-    background-color: white;
-
-    text-align: center;
-
-    align-content: center;
-
-    height: 50px;
-
+    overflow: hidden;
+    font-size: 13px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+    border-radius:2px ;
     border: solid 1px #dedede;
-
-    padding: -5px 0;
-
-    margin-bottom: 10px;
-
-    margin-top: 5px;
-
-    border-radius: 5px;
-
+    background-color: #fff;
     cursor: pointer;
-
-    width: 280px;
+    margin-bottom:10px ;
+    text-align: center;
+    width: 400px;
 
 }
-.btn-submit-login {
 
-    background-color: black;
 
-    color: white;
+.sso-text {
 
-    font-family: Arial, Helvetica, sans-serif;
+     
+    position: relative;
+    margin-left: 200px;
+    font-size: 12px;
+    
 
+}
+
+
+.vertical-line {
+			border-left: 1px solid #ccc;
+			height: 500px;
+			position: absolute;
+			left: 50%;
+			margin-left: -1px;
+			top: 0;
+		}
+
+.hf-sso_btn {
+    display: block;
+    height: 50px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
     border-radius: 5px;
-
-    padding: 5px 10px;
-
-    width: 280px;
-
-    border: 1px solid grey;
+    border: solid 1px #dedede;
+    background-color: #fff;
+    cursor: pointer;
+}
+.btn-submit-login {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 400px;
+    border: 0px solid grey;
+    font-size: 18px;
 
 }
 
 .form-group {
-
     display: block;
-
     width: 280px;
-
     margin-top: 5px;
-
     padding-top: 10px;
-
 }
-.form-group label {
 
+.form-group label {
     margin-bottom: 5px;
-
     font-weight: 400;
-
     font-size: 14px;
-
 }
 
-.form-input {
 
-    width: 280px;
-
-    padding: 5px 10px;
-
-    border-radius: 5px;
-
-    border: 1px solid grey;
-
-    font-weight: 400;
-
-    font-size: 14px;
-
-    font-family: Arial, Helvetica, sans-serif;
-
+input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+input[type="password"] {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+
 .form-group label {
-
     display: block;
-
 }
+
 .flex-group {
-
     display: flex;
-
     justify-content: space-between;
+}
+ 
+footer {
+  background-color: #e6e6e6;
+  color: #fff;
+  padding: -50px;
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  margin-left: -8px;
+  margin-right: -5px;
+}
 
+footer p {
+  margin: 0;
+  text-align: right;
+    padding: 10px 5px;
+  color: #000;
+  font-size: 13px;
+}
+
+footer a {
+  margin: 0;
+  float: right;
+  color: #000;
 }
 
 .form-footer {
-
-    display: flex;
-
+    
     justify-content: space-between;
-
     align-items: center;
-
     padding: 10px 5px;
-
     font-size: 14px;
-
     color: #666;
-   
-
+     
 }
-.form-footer>p {
 
+.form-footer>p {
     color: #069
 }
 
+
 .form-footer a {
-
     text-decoration: none;
-
     color: #08c;
-
     font-weight: 400;
-
 }
 
 .footer-container {
-
     background-color: #e6e6e6;
-
     color: #666;
-
     text-align: right;
-
     padding: 15px 30px;
-
+    margin-bottom: 230px;
 }
+
 .footer-container-info {
-
     background-color: #fff;
-
     color: #666;
-
     text-align: right;
-
     padding: 7px 30px 10px;
-
 }
 
 .footer-copyright-text {
-
     font-size: 13px;
-
 }
-.footer-container-info a {
 
-    text-decoration: none;
 
-    color: #666;
-
-    font-weight: 700;
-
-}
 .footer-container img {
-
     width: 100px;
+}
 
+.hf-branding {
+    width: 100%;
+    padding: 7px 30px 10px;
+    text-align: right;
+}
+
+.hf-branding_text {
+    margin-right: 5px;
+    font-size: 12px;
+    color: #666;
 }
