@@ -1,7 +1,4 @@
 let student ={
-    firstName:"",
-    lastName: "",
-    grade:[],
     inputNewGrade(newGrade){
        this.grade.push(newGrade)
     },
@@ -25,4 +22,7 @@ let studentList = [student1,student2]
 
 studentList[0].inputNewGrade(5)
 studentList[1].inputNewGrade(10)
+
+console.log(studentList[0].grade)
+console.log(studentList[1].grade)
 
